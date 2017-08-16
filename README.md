@@ -384,7 +384,9 @@ Are you interested in creating your own extension? You can learn how to do this 
 
 ## Integrated terminal
 
-> Windows / Linux / Mac: <kbd>ctrl+`</kbd>
+> Mac / Linux: <kbd>ctrl+`</kbd>
+
+> Windows: <kbd>ctrl+'</kbd>
 
 ![Integrated terminal](/media/integrated_terminal.png)
 
