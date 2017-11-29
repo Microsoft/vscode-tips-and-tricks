@@ -1,5 +1,8 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
+>**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR>
+>The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated.
+
 # Table of Contents
 
 1. <a href="#basics">Basics</a>
@@ -76,9 +79,9 @@ You can open multiple files from **Quick Open** by pressing the Right arrow key.
 
 ## CLI tool
 
-> Linux: Follow instructions [here](https://code.visualstudio.com/docs/setup/linux).
+> Linux: Follow instructions [here](https://code.visualstudio.com/docs/editor/setup#_linux).
 
-> Windows: Follow instructions [here](https://code.visualstudio.com/docs/setup/windows).
+> Windows: Follow instructions [here](https://code.visualstudio.com/docs/editor/setup#_windows).
 
 > Mac: see below.
 
@@ -612,7 +615,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ## Code folding
 
-> Mac: <kbd>alt+cmd+\[</kbd> and <kbd>alt+cmd+\]</kbd>
+> Mac: <kbd>shift+cmd+\[</kbd> and <kbd>shift+cmd+\]</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+\[</kbd> and <kbd>ctrl+shift+\]</kbd>
 
@@ -854,10 +857,9 @@ View diff decorations in editor. See [documentation](https://code.visualstudio.c
 
 ## Resolve merge conflicts
 
-During a merge, click the Source Control button in the Activity Bar and make changes in the diff view. Select and accept current, incoming or both changes in just one click.
+During a merge, click the Source Control button in the Activity Bar and make changes in the diff view.
 
 ![git icon](/media/git_icon.png)
-![resolve merge conflicts](/media/resolve_merge_conflicts.gif)
 
 ## Setup VS Code as default merge tool
 
