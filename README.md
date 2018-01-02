@@ -180,10 +180,11 @@ Download the keyboard shortcut reference sheet for your platform ([macOS](https:
 
 Are you used to keyboard shortcuts from another editor? You can install a Keymap extension that brings the keyboard shortcuts from your favorite editor to VS Code. Go to **Preferences** > **Keymap Extensions** to see the current list on the [Marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads). Some of the more popular ones:
 
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-- [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
-- [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
 - [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
+- [Emacs Keymap](https://marketplace.visualstudio.com/items?itemName=hiro-sun.vscode-emacs)
+- [Intellij IDEA WebStorm](https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings)
+- [Sublime Text Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
 ### Customize your keyboard shortcuts
 
