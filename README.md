@@ -348,6 +348,16 @@ or a custom schema
 
 See more in the [documentation](https://code.visualstudio.com/docs/languages/json).
 
+## Custom title bar and menus on Windows and Linux
+
+Helps improve the look, feel and usability of the title bar and menus in Windows and Linux.
+
+To enable this feature set `window.titleBarStyle` to `custom` in your `settings.json` or use the new settings editor.
+
+![Set custom title bar](/media/set_custom_title_bar.gif)
+
+To read more about this change see the [August 2018 Update](https://code.visualstudio.com/updates/v1_27#_custom-title-bar-and-menus-on-windows-and-linux)
+
 # Extensions
 
 ## Find extensions
