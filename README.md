@@ -396,6 +396,10 @@ Further reading:
 - [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
 - [Mastering VS Code's Terminal article](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
 
+Switch the Integrated Terminal to CMD
+1. Open the Integrated Terminal: Ctrl + `.
+2. If a Bash terminal is opened while you want a Command Prompt (cmd), simply run the command: cmd, in the terminal to switch it to Command Prompt.
+
 
 ## Auto Save
 
