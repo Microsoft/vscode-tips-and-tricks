@@ -391,6 +391,8 @@ Are you interested in creating your own extension? You can learn how to do this 
 
 ![Integrated terminal](/media/integrated_terminal.png)
 
+On Windows, you can also use the Linux Subsystem Terminal with the Ubuntu app as your console by setting the following in your VSCode settings:
+
 Further reading:
 
 - [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
