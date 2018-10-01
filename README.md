@@ -392,6 +392,9 @@ Are you interested in creating your own extension? You can learn how to do this 
 ![Integrated terminal](/media/integrated_terminal.png)
 
 On Windows, you can also use the Linux Subsystem Terminal with the Ubuntu app as your console by setting the following in your VSCode settings:
+```json
+"terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
+```
 
 Further reading:
 
