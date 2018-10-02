@@ -1,7 +1,7 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
->**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR> 
->The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated. 
+> **Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR>
+> The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated.
 
 # Table of Contents
 
@@ -25,9 +25,9 @@
 
 The Visual Studio Code team uses the Insiders version to test the latest features and bug fixes of VS Code. You can use this same version by [downloading here](https://code.visualstudio.com/insiders).
 
-* For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build.
-* Frequent Builds - New builds everyday with the latest bug fixes and features.
-* Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently.
+- For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build.
+- Frequent Builds - New builds everyday with the latest bug fixes and features.
+- Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently.
 
 ![side by side install](/media/side-by-side-install.png)
 
@@ -89,7 +89,6 @@ Open the **Command Palette** (<kbd>F1</kbd>) and type "shell command". Hit enter
 
 ![shell command](/media/setup_shell-command.png)
 
-
 ```bash
 # open code with current directory
 code .
@@ -149,12 +148,12 @@ If you want to persist the new language mode for that file type, you can use the
 
 There are many things you can do to customize VS Code.
 
-* Change your theme
-* Change your keyboard shortcuts
-* Tune your settings
-* Add JSON validation
-* Create snippets
-* Install extensions
+- Change your theme
+- Change your keyboard shortcuts
+- Tune your settings
+- Add JSON validation
+- Create snippets
+- Install extensions
 
 Check out the full [documentation](https://code.visualstudio.com/docs/getstarted/settings).
 
@@ -201,25 +200,25 @@ Open `settings.json`
 
 > Windows / Linux: **File** > **Preferences** > **Settings**
 
-*Format on paste*
+_Format on paste_
 
 ```json
 "editor.formatOnPaste": true
 ```
 
-*Change the font size*
+_Change the font size_
 
 ```json
 "editor.fontSize": 18
 ```
 
-*Change the zoom level*
+_Change the zoom level_
 
 ```json
 "window.zoomLevel": 5
 ```
 
-*Font ligatures*
+_Font ligatures_
 
 ```json
 "editor.fontFamily": "Fira Code",
@@ -230,7 +229,7 @@ Open `settings.json`
 
 ![font ligatures](/media/font-ligatures-annotated.png)
 
-*Auto Save*
+_Auto Save_
 
 ```json
 "files.autoSave": "afterDelay"
@@ -238,31 +237,31 @@ Open `settings.json`
 
 You can also toggle Auto Save from the top-level menu with the **File** > **Auto Save**.
 
-*Format on save*
+_Format on save_
 
 ```json
 "editor.formatOnSave": true,
 ```
 
-*Change the size of tab characters*
+_Change the size of tab characters_
 
 ```json
 "editor.tabSize": 4
 ```
 
-*Spaces or tabs*
+_Spaces or tabs_
 
 ```json
 "editor.insertSpaces": true
 ```
 
-*Render whitespace*
+_Render whitespace_
 
 ```json
 "editor.renderWhitespace": "all"
 ```
 
-*Ignore files / folders*
+_Ignore files / folders_
 
 Removes these files / folders from your editor window.
 
@@ -373,15 +372,15 @@ Click the Extensions Activity Bar button. Then click **Show Recommended Extensio
 
 Are you interested in creating your own extension? You can learn how to do this in the documentation, specifically check out the [documentation on contribution points](https://code.visualstudio.com/docs/extensionAPI/extension-points).
 
-* configuration
-* commands
-* keybindings
-* languages
-* debuggers
-* grammars
-* themes
-* snippets
-* jsonValidation
+- configuration
+- commands
+- keybindings
+- languages
+- debuggers
+- grammars
+- themes
+- snippets
+- jsonValidation
 
 # File and folder management
 
@@ -395,7 +394,6 @@ Further reading:
 
 - [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
 - [Mastering VS Code's Terminal article](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
-
 
 ## Auto Save
 
@@ -704,39 +702,39 @@ Here is configuration to use ES6.
 
 ```json
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true,
-        "node": true
-    },
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true,
-            "classes": true,
-            "defaultParams": true
-        }
-    },
-    "rules": {
-        "no-const-assign": 1,
-        "no-extra-semi": 0,
-        "semi": 0,
-        "no-fallthrough": 0,
-        "no-empty": 0,
-        "no-mixed-spaces-and-tabs": 0,
-        "no-redeclare": 0,
-        "no-this-before-super": 1,
-        "no-undef": 1,
-        "no-unreachable": 1,
-        "no-use-before-define": 0,
-        "constructor-super": 1,
-        "curly": 0,
-        "eqeqeq": 0,
-        "func-names": 0,
-        "valid-typeof": 1
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "classes": true,
+      "defaultParams": true
     }
+  },
+  "rules": {
+    "no-const-assign": 1,
+    "no-extra-semi": 0,
+    "semi": 0,
+    "no-fallthrough": 0,
+    "no-empty": 0,
+    "no-mixed-spaces-and-tabs": 0,
+    "no-redeclare": 0,
+    "no-this-before-super": 1,
+    "no-undef": 1,
+    "no-unreachable": 1,
+    "no-use-before-define": 0,
+    "constructor-super": 1,
+    "curly": 0,
+    "eqeqeq": 0,
+    "func-names": 0,
+    "valid-typeof": 1
+  }
 }
 ```
 
@@ -801,19 +799,16 @@ Toggle inline view by clicking the **More** (...) button in the top right and se
 
 If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
 
-
 **Review Pane**
 
-Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
+Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format.
 Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
 
 ![diff_review_pane](/media/diff_review_pane.png)
 
-
 **Edit pending changes**
 
 You can make edits directly in the pending changes of the diff view.
-
 
 ## Branches
 
@@ -901,23 +896,23 @@ This will generate a `task.json` file with content like the following. See the T
 
 ```json
 {
-    // See http://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
-    "version": "0.1.0",
-    "command": "npm",
-    "isShellCommand": true,
-    "showOutput": "always",
-    "suppressTaskName": true,
-    "tasks": [
-        {
-            "taskName": "install",
-            "args": ["install"]
-        },
-        {
-            "taskName": "build",
-            "args": ["run", "build"]
-        }
-    ]
+  // See http://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "0.1.0",
+  "command": "npm",
+  "isShellCommand": true,
+  "showOutput": "always",
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "install",
+      "args": ["install"]
+    },
+    {
+      "taskName": "build",
+      "args": ["run", "build"]
+    }
+  ]
 }
 ```
 
@@ -929,9 +924,8 @@ Select **Tasks** from the top-level menu, run the command **Run Task...**, and s
 
 ![task runner](/media/task_runner.gif)
 
-
 ## Other Resources
 
-* [vscode official docs](https://code.visualstudio.com/docs)
-* [react sample app](https://github.com/Microsoft/vscode-react-sample)
-* [awesome vscode](https://github.com/viatsko/awesome-vscode)
+- [vscode official docs](https://code.visualstudio.com/docs)
+- [react sample app](https://github.com/Microsoft/vscode-react-sample)
+- [awesome vscode](https://github.com/viatsko/awesome-vscode)
