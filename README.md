@@ -519,6 +519,8 @@ Here are a selection of common features for editing code. If the keyboard shortc
 
 Add more cursors to current selection.
 
+After selecting some text, press <kbd>ctrl+l</kbd> to add a cursor at every occurence of the selected term in the current file at once, or press <kbd>ctrl+d</kbd> one or more times to add additional cursors one by one. These commands behave similar to find all and find next. Selecting text like this and then making changes is often easier and more intuitive than using find and replace to make bulk changes.
+
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
 ## Join line
