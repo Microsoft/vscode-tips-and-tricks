@@ -195,11 +195,23 @@ See more in [Key Bindings for Visual Studio Code](https://code.visualstudio.com/
 
 ## Tune your settings
 
-Open `settings.json`
+Open settings:
 
 > Mac: <kbd>cmd+,</kbd>
 
 > Windows / Linux: **File** > **Preferences** > **Settings**
+
+Now settings have a new UI, you don't longer need edit a json file. All you need to do is search for some configuration and edit it.
+
+![new settings](/media/new_settings.gif)
+
+If you like, you are able to use the old JSON format.
+
+> Mac: <kbd>cmd+shift+p</kbd> > **Open Settings (JSON)**
+
+> Windows / Linux: <kbd>ctrl+shift+p</kbd> > **Open Settings (JSON)**
+
+![new settings](/media/old_settings.gif)
 
 *Format on paste*
 
