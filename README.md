@@ -465,7 +465,7 @@ You can use drag and drop editors to create new editor groups and move editors b
 
 > Windows: <kbd>middle click</kbd>
 
-![open file in new tab](/media/open_file_in_new_tab.gif)!
+![open file in new tab](/media/open_file_in_new_tab.gif)
 
 ## Close the currently opened folder
 
