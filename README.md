@@ -1,7 +1,7 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
->**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR> 
->The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated. 
+>**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR>
+>The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated.
 
 # Table of Contents
 
@@ -76,6 +76,16 @@ Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently op
 ### Open multiple files from Quick Open
 
 You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
+
+## Quick Open View
+
+Quickly switch between views.
+
+> Mac: <kbd>cmd+q</kbd>
+
+> Windows / Linux: <kbd>ctrl+q</kbd>
+
+![Quick Open View](/media/quick_open_view.gif)
 
 ## CLI tool
 
@@ -804,7 +814,7 @@ If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false
 
 **Review Pane**
 
-Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format. 
+Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format.
 Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
 
 ![diff_review_pane](/media/diff_review_pane.png)
