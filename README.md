@@ -155,6 +155,7 @@ There are many things you can do to customize VS Code.
 * Add JSON validation
 * Create snippets
 * Install extensions
+* Competitive Programming
 
 Check out the full [documentation](https://code.visualstudio.com/docs/getstarted/settings).
 
@@ -347,6 +348,10 @@ or a custom schema
 ```
 
 See more in the [documentation](https://code.visualstudio.com/docs/languages/json).
+
+## Competitive Programming
+
+How to customize VS Code for competitive programming: https://kipalog.com/posts/Configure-VSCode-for-competitive-programming
 
 # Extensions
 
