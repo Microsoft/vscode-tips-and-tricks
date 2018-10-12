@@ -100,6 +100,12 @@ code -r .
 # create a new window
 code -n
 
+# open the current directory with a new blank file
+code <file_name>
+
+# open a new window with a new blank file
+code -n <file_name>
+
 # change the language
 code --locale=es
 
