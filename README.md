@@ -37,7 +37,7 @@ Open the **Welcome** page to get started with the basics of VS Code. **Help** > 
 
 ![welcome page](/media/welcome_page.png)
 
-Includes the **Interactive Playground**.
+Includes the **Interactive Playground**, where you can get familiar with basic VS Code workflow.
 
 ![interactive playground](/media/interactive_playground.png)
 
@@ -161,6 +161,12 @@ Check out the full [documentation](https://code.visualstudio.com/docs/getstarted
 ## Change your theme
 
 Open the **Command Palette** and type "themes". You can install more themes from the extension Marketplace.
+
+**Change theme**
+
+> Mac: <kbd>cmd+k t</kbd>
+
+> Windows / Linux: <kbd>ctrl+k t</kbd>
 
 ![Preview themes](/media/PreviewThemes.gif)
 
@@ -935,3 +941,5 @@ Select **Tasks** from the top-level menu, run the command **Run Task...**, and s
 * [vscode official docs](https://code.visualstudio.com/docs)
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
 * [awesome vscode](https://github.com/viatsko/awesome-vscode)
+* [vscode rocks](https://vscode.rocks)
+* [vscode can do that](https://vscodecandothat.com)
