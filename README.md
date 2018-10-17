@@ -599,6 +599,12 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
+## Delete current line
+
+> Mac: <kbd>cmd+shift+k</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+k</kbd>
+
 ## Code formatting
 
 ### Currently selected source code
