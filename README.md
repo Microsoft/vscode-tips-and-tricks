@@ -599,6 +599,14 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
+## Toggle Line Comment
+
+> Mac: <kbd>cmd+/</kbd>
+
+> Windows: / Linux <kbd>ctrk+/</kbd>
+
+![line comment](/media/line_comment.gif)
+
 ## Code formatting
 
 ### Currently selected source code
