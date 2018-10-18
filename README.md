@@ -603,7 +603,7 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 > Mac: <kbd>cmd+/</kbd>
 
-> Windows: / Linux <kbd>ctrk+/</kbd>
+> Windows / Linux: <kbd>ctrk+/</kbd>
 
 ![line comment](/media/line_comment.gif)
 
