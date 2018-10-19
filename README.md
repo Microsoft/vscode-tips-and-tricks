@@ -8,16 +8,16 @@
 1. <a href="#basics">Basics</a>
 2. <a href="#customization">Customization</a>
 3. <a href="#extensions">Extensions</a>
-4. <a href="#file-and-folder-management">File and folder management</a>
-5. <a href="#editing-hacks">Editing hacks</a>
+4. <a href="#file-and-folder-management">File and Folder Management</a>
+5. <a href="#editing-hacks">Editing Hacks</a>
 6. <a href="#intellisense">IntelliSense</a>
 7. <a href="#snippets">Snippets</a>
-8. <a href="#git-integration">Git integration</a>
+8. <a href="#git-integration">Git Integration</a>
 9. <a href="#debugging">Debugging</a>
-10. <a href="#task-runner">Task runner</a>
+10. <a href="#task-runner">Task Runner</a>
 11. <a href="#other-resources">Other Resources</a>
 
-> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut reference.
+> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut references.
 
 # Basics
 
@@ -27,47 +27,47 @@ The Visual Studio Code team uses the Insiders version to test the latest feature
 
 * For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build.
 * Frequent Builds - New builds everyday with the latest bug fixes and features.
-* Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently.
+* Side-by-side Install - Insiders installs next to the Stable build allowing you to use either independently.
 
-![side by side install](/media/side-by-side-install.png)
+![Side-by-side Install](/media/side-by-side-install.png)
 
 ## Getting Started
 
 Open the **Welcome** page to get started with the basics of VS Code. **Help** > **Welcome**.
 
-![welcome page](/media/welcome_page.png)
+![Welcome Page](/media/welcome_page.png)
 
 Includes the **Interactive Playground**.
 
-![interactive playground](/media/interactive_playground.png)
+![Interactive Playground](/media/interactive_playground.png)
 
 ## Command Palette
 
 Access all available commands based on your current context.
 
-> Mac: <kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
+> Mac: <kbd>Cmd+Shift+P</kbd> or <kbd>F1</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+p</kbd> or <kbd>f1</kbd>
+> Windows / Linux: <kbd>Ctrl+Shift+P</kbd> or <kbd>F1</kbd>
 
-![command palette](/media/OpenCommandPalatte.gif)
+![Command Palette](/media/OpenCommandPalatte.gif)
 
-## Reference keybindings
+## Reference Keybindings
 
-All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is use the **Command Palette** to help you out.
+All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is, use the **Command Palette** to help you out.
 
-![keyboard references](/media/keyboard-references.png)
+![Keyboard References](/media/keyboard-references.png)
 
-## Quick open
+## Quick Open
 
 Quickly open files.
 
-> Mac: <kbd>cmd+p</kbd>
+> Mac: <kbd>Cmd+P</kbd>
 
-> Windows / Linux: <kbd>ctrl+p</kbd>
+> Windows / Linux: <kbd>Ctrl+P</kbd>
 
 ![Quick Open](/media/QuickOpen.gif)
 
-> **Tip:** Type "?" to view help suggestions.
+> **Tip:** Type "?" to view helpful suggestions.
 
 ### Navigate between recently opened files
 
@@ -75,7 +75,7 @@ Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently op
 
 ### Open multiple files from Quick Open
 
-You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
+You can open multiple files from **Quick Open** by pressing the Right Arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
 
 ## CLI tool
 
@@ -87,7 +87,7 @@ You can open multiple files from **Quick Open** by pressing the Right arrow key.
 
 Open the **Command Palette** (<kbd>F1</kbd>) and type "shell command". Hit enter to execute **Shell Command: Install 'code' command in PATH**.
 
-![shell command](/media/setup_shell-command.png)
+![Shell Command](/media/setup_shell-command.png)
 
 
 ```bash
@@ -113,35 +113,35 @@ code --help
 code --disable-extensions .
 ```
 
-![all cli commands](/media/vscode-cli-commands.png)
+![All CLI Commands](/media/vscode-cli-commands.png)
 
 ## .vscode folder
 
-Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
+Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the Debugger.
 
-## Status Bar decorations
+## Status Bar Decorations
 
 **Errors and Warnings**
 
-> Mac: <kbd>shift+cmd+m</kbd>
+> Mac: <kbd>Cmd+Shift+M</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+m</kbd>
+> Windows / Linux: <kbd>Ctrl+Shift+M</kbd>
 
 Quickly jump to errors and warnings in the project.
 
-Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
+Cycle through errors with <kbd>F8</kbd> or <kbd>Shift+F8</kbd>
 
-![errors and warnings](/media/Errors_Warnings.gif)
+![Errors and Warnings](/media/Errors_Warnings.gif)
 
 You can filter problems by type ('errors', 'warnings') or text matching.
 
-**Change language mode**
+**Change Language Mode**
 
-> Mac: <kbd>cmd+k m</kbd>
+> Mac: <kbd>Cmd+K M</kbd>
 
-> Windows / Linux: <kbd>ctrl+k m</kbd>
+> Windows / Linux: <kbd>Ctrl+K M</kbd>
 
-![change syntax](/media/change_syntax.gif)
+![Change Syntax](/media/change_syntax.gif)
 
 If you want to persist the new language mode for that file type, you can use the **Configure File Association for ...** command to associate the current file extension with an installed language.
 
@@ -149,30 +149,30 @@ If you want to persist the new language mode for that file type, you can use the
 
 There are many things you can do to customize VS Code.
 
-* Change your theme
-* Change your keyboard shortcuts
-* Tune your settings
-* Add JSON validation
-* Create snippets
-* Install extensions
+* Change your Theme
+* Change your Keyboard Shortcuts
+* Tune your Settings
+* Add JSON Validation
+* Create Snippets
+* Install Extensions
 
 Check out the full [documentation](https://code.visualstudio.com/docs/getstarted/settings).
 
-## Change your theme
+## Change your Theme
 
-Open the **Command Palette** and type "themes". You can install more themes from the extension Marketplace.
+Open the **Command Palette** and type "themes". You can install more themes from the Marketplace.
 
 ![Preview themes](/media/PreviewThemes.gif)
 
 Additionally, you can install and change your File Icon themes.
 
-![File icon themes](/media/PreviewFileIconThemes.gif)
+![File Icon themes](/media/PreviewFileIconThemes.gif)
 
-## Change your keyboard shortcuts
+## Change your Keyboard Shortcuts
 
 ### Keyboard Reference Sheets
 
-Download the keyboard shortcut reference sheet for your platform ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
+Download the keyboard Shortcut Reference Sheet for your platform ([macOS](https://go.microsoft.com/fwlink/?linkid=832143), [Windows](https://go.microsoft.com/fwlink/?linkid=832145), [Linux](https://go.microsoft.com/fwlink/?linkid=832144)).
 
 ![Keyboard Reference Sheet](/media/KeyboardReferenceSheet.png)
 
@@ -186,21 +186,21 @@ Are you used to keyboard shortcuts from another editor? You can install a Keymap
 - [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)
 - [Eclipse Keymap](https://marketplace.visualstudio.com/items?itemName=alphabotsec.vscode-eclipse-keybindings)
 
-### Customize your keyboard shortcuts
+### Customize your Keyboard Shortcuts
 
-Open the **Command Palette** and type "keyboard shortcuts." You can now add your own keybindings in the file on the right.
+Open the **Command Palette** and type "keyboard shortcuts". You can now add your own keybindings in the file on the right.
 
-![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
+![Customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
 See more in [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
 
-## Tune your settings
+## Tune your Settings
 
 Open `settings.json`
 
-> Mac: <kbd>cmd+,</kbd>
+> Mac: <kbd>Cmd + ,</kbd>
 
-> Windows / Linux: **File** > **Preferences** > **Settings** or <kbd>ctrl+,</kbd>
+> Windows / Linux: **File** > **Preferences** > **Settings** or <kbd>Ctrl + ,</kbd>
 
 *Format on paste*
 
@@ -229,7 +229,7 @@ Open `settings.json`
 
 > **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
 
-![font ligatures](/media/font-ligatures-annotated.png)
+![Font ligatures](/media/font-ligatures-annotated.png)
 
 *Auto Save*
 
@@ -285,7 +285,7 @@ Remove these files / folders from search results.
 
 And many, many [others](https://code.visualstudio.com/docs/getstarted/settings).
 
-## Language specific settings
+## Language Specific Settings
 
 For those settings you only want for specific languages.
 
@@ -351,56 +351,43 @@ See more in the [documentation](https://code.visualstudio.com/docs/languages/jso
 
 # Extensions
 
-## Find extensions
+## Find Extensions
 
-1. In the VS Code [Marketplace](https://marketplace.visualstudio.com/vscode).
-2. Search inside VS Code
-3. View extension recommendations
-4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode)
+In the VS Code [Marketplace](https://marketplace.visualstudio.com/vscode), you can search for extensions or view extension recommendations or get community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
 
-## Install extensions
+## Install Extensions
 
-Click the Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
+Click the Extensions Activity Bar button. You can search via the Search Bar or click the **More** (...) button to filter and sort by install count.
 
-![install extensions](/media/InstallExtensions.gif)
+![Install extensions](/media/InstallExtensions.gif)
 
-## Extension recommendations
+## Extension Recommendations
 
 Click the Extensions Activity Bar button. Then click **Show Recommended Extensions** in the **More** (...) button menu.
 
-![show recommended extensions](/media/ShowRecommendedExtensions.gif)
+![Show recommended extensions](/media/ShowRecommendedExtensions.gif)
 
-## Creating my own extension
+## Creating my own Extension
 
 Are you interested in creating your own extension? You can learn how to do this in the documentation, specifically check out the [documentation on contribution points](https://code.visualstudio.com/docs/extensionAPI/extension-points). A simple "Hello, world" tutorial can be found [here](https://code.visualstudio.com/docs/extensions/example-hello-world).
 
-* configuration
-* commands
-* keybindings
-* languages
-* debuggers
-* grammars
-* themes
-* snippets
-* jsonValidation
+# File and Folder Management
 
-# File and folder management
+## Integrated Terminal
 
-## Integrated terminal
-
-> Windows / Linux / Mac: <kbd>ctrl+`</kbd>
+> Windows / Linux / Mac: <kbd>Ctrl + `</kbd>
 
 ![Integrated terminal](/media/integrated_terminal.png)
 
 Further reading:
 
-- [Official documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
+- [Official Documentation](https://code.visualstudio.com/docs/editor/integrated-terminal)
 - [Mastering VS Code's Terminal article](http://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
 
 
 ## Auto Save
 
-Open `settings.json` with <kbd>cmd+,</kbd>
+Open `settings.json` with <kbd>Cmd + ,</kbd> for Mac and <kbd>Ctrl + ,</kbd> for Windows / Linux 
 
 ```json
 "files.autoSave": "afterDelay"
@@ -410,89 +397,89 @@ You can also toggle Auto Save from the top-level menu with the **File** > **Auto
 
 ## Toggle Sidebar
 
-> Mac: <kbd>cmd+b</kbd>
+> Mac: <kbd>Cmd+B</kbd>
 
-> Windows / Linux: <kbd>ctrl+b</kbd>
+> Windows / Linux: <kbd>Ctrl+B</kbd>
 
-![toggle side bar](/media/toggle_side_bar.gif)
+![Toggle side bar](/media/toggle_side_bar.gif)
 
 ## Zen Mode
 
-> Mac: <kbd>cmd+k z</kbd>
+> Mac: <kbd>Cmd+K Z</kbd>
 
-> Windows / Linux: <kbd>ctrl+k z</kbd>
+> Windows / Linux: <kbd>Ctrl+K Z</kbd>
 
-![zen mode](/media/zen_mode.gif)
+![Zen mode](/media/zen_mode.gif)
 
 Enter distraction free Zen mode.
 
-## Side by side editing
+## Side by side Editing
 
-> Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the File Explorer.
+> Mac: <kbd>Cmd + \\</kbd> or <kbd>Cmd</kbd> then click a file from the File Explorer.
 
-> Windows / Linux: <kbd>ctrl+\\</kbd>
+> Windows / Linux: <kbd>Ctrl + \\</kbd>
 
-> Linux: <kbd>ctrl+2</kbd>
+> Linux: <kbd>Ctrl+2</kbd>
 
-![split editors](/media/split_editor.gif)
+![Split editors](/media/split_editor.gif)
 
 You can use drag and drop editors to create new editor groups and move editors between groups.
 
-## Switch between editors
+## Switch between Editors
 
-> Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
+> Mac: <kbd>Cmd+1</kbd>, <kbd>Cmd+2</kbd>, <kbd>Cmd+3</kbd>
 
-> Windows / Linux: <kbd>ctrl+1</kbd>, <kbd>ctrl+2</kbd>, <kbd>ctrl+3</kbd>
+> Windows / Linux: <kbd>Ctrl+1</kbd>, <kbd>Ctrl+2</kbd>, <kbd>Ctrl+3</kbd>
 
-![navigate editors](/media/navigate_editors.gif)
+![Navigate editors](/media/navigate_editors.gif)
 
-## Move to Explorer window
+## Move to Explorer Window
 
-> Mac: <kbd>cmd+shift+e</kbd>
+> Mac: <kbd>Cmd+Shift+E</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+e</kbd>
+> Windows / Linux: <kbd>Ctrl+Shift+E</kbd>
 
 ## Create and open a file
 
-> Mac: <kbd>cmd+click</kbd>
+> Mac: <kbd>Cmd+Click</kbd>
 
-> Windows / Linux: <kbd>ctrl+click</kbd>
+> Windows / Linux: <kbd>Ctrl+Click</kbd>
 
-![create and open file](/media/create_open_file.gif)
+![Create and open file](/media/create_open_file.gif)
 
-## Close the currently opened folder
+## Close the Currently Opened Folder
 
-> Mac: <kbd>cmd+w</kbd>
+> Mac: <kbd>Cmd+W</kbd>
 
-> Windows / Linux: <kbd>ctrl+k f</kbd>
+> Windows / Linux: <kbd>Ctrl+K F</kbd>
 
 ## History
 
-Navigate entire history with <kbd>ctrl+tab</kbd>
+Navigate entire history with <kbd>Ctrl+Tab</kbd>
 
 Navigate back.
 
-> Mac: <kbd>ctrl+-</kbd>
+> Mac: <kbd>Ctrl+-</kbd>
 
-> Windows / Linux: <kbd>alt+left</kbd>
+> Windows / Linux: <kbd>Alt+&#x2190;</kbd>
 
 Navigate Forward.
 
-> Mac: <kbd>ctrl+shift+-</kbd>
+> Mac: <kbd>Ctrl+Shift+-</kbd>
 
-> Windows / Linux: <kbd>alt+right</kbd>
+> Windows / Linux: <kbd>Alt+&#x2192;</kbd>
 
-![navigate history](/media/navigate_history.gif)
+![Navigate history](/media/navigate_history.gif)
 
-## Navigate to a file
+## Navigate to a File
 
-> Mac: <kbd>cmd+e</kbd> or <kbd>cmd+p</kbd>
+> Mac: <kbd>Cmd+E</kbd> or <kbd>Cmd+P</kbd>
 
-> Windows / Linux: <kbd>ctrl+e</kbd> or <kbd>ctrl+p</kbd>
+> Windows / Linux: <kbd>Ctrl+E</kbd> or <kbd>Ctrl+P</kbd>
 
-![navigate to file](/media/navigate_to_file.gif)
+![Navigate to file](/media/navigate_to_file.gif)
 
-## File associations
+## File Associations
 
 Create language associations for files that aren't detected accurately (for example, many config files are JSON).
 
@@ -502,199 +489,199 @@ Create language associations for files that aren't detected accurately (for exam
 }
 ```
 
-# Editing hacks
+# Editing Hacks
 
 Here are a selection of common features for editing code. If the keyboard shortcuts aren't comfortable for you, consider installing a [Keymap extension](https://marketplace.visualstudio.com/search?target=VSCode&category=Keymaps&sortBy=Downloads) for your old editor.
 
-## Multi cursor selection
+## Multi Cursor Selection
 
-> Mac: <kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>
+> Mac: <kbd>Cmd+Opt+&#x2191;</kbd> or <kbd>Cmd+Opt+&#x2193;</kbd>
 
-> Windows: <kbd>ctrl+alt+up</kbd> or <kbd>ctrl+alt+down</kbd>
+> Windows: <kbd>Ctrl+Alt+&#x2191;</kbd> or <kbd>Ctrl+Alt+&#x2193;</kbd>
 
-> Linux: <kbd>alt+shift+up</kbd> or <kbd>alt+shift+down</kbd>
+> Linux: <kbd>Shift+Alt+&#x2191;</kbd> or <kbd>Shift+Alt+&#x2193;</kbd>
 
-![multi cursor](/media/multi_cursor.gif)
+![Multi cursor](/media/multi_cursor.gif)
 
-![multi cursor second example](/media/editingevolved_multicursor.gif)
+![Multi cursor second example](/media/editingevolved_multicursor.gif)
 
 Add more cursors to current selection.
 
-![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
+![Add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
-## Join line
+## Join Line
 
-> Mac: <kbd>ctrl+j</kbd>
+> Mac: <kbd>Ctrl+J</kbd>
 
 > Windows / Linux: Not bound by default. Open Keyboard Shortcuts and bind `editor.action.joinLines` to a shortcut of your choice.
 
 ![Join lines](/media/JoinLines.gif)
 
-## Copy line up / down
+## Copy Line Up / Down
 
-> Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
+> Mac: <kbd>Opt+Shift+&#x2191;</kbd> or <kbd>Opt+Shift+&#x2193;</kbd>
 
-> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
+> Windows / Linux([Issue #5363](https://github.com/Microsoft/vscode/issues/5363)): <kbd>Shift+Alt+&#x2191;</kbd> or <kbd>Shift+Alt+&#x2193;</kbd>
 
-![copy line down](/media/copy_line_down.gif)
+![Copy line down](/media/copy_line_down.gif)
 
-## Shrink / expand selection
+## Shrink / Expand Selection
 
 More in [documentation](https://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
 
-> Mac: <kbd>ctrl+shift+cmd+left</kbd> or <kbd>ctrl+shift+cmd+right</kbd>
+> Mac: <kbd>Ctrl+Shift+Cmd+Left</kbd> or <kbd>Ctrl+Shift+Cmd+Right</kbd>
 
-> Windows / Linux: <kbd>shift+alt+left</kbd> or <kbd>shift+alt+right</kbd>
+> Windows / Linux: <kbd>Shift+Alt+Left</kbd> or <kbd>Shift+Alt+Right</kbd>
 
-![shrink expand selection](/media/shrink_expand_selection.gif)
+![Shrink expand selection](/media/shrink_expand_selection.gif)
 
 ## Go to Symbol in File
 
-> Mac: <kbd>cmd+shift+o</kbd>
+> Mac: <kbd>Cmd+Shift+O</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+o</kbd>
+> Windows / Linux: <kbd>Ctrl+Shift+O</kbd>
 
 ![Find by symbol](/media/find_by_symbol.gif)
 
 You can group the symbols by kind by adding a colon, `@:`.
 
-![group symbols by kind](/media/group_symbols_by_kind.png)
+![Group symbols by kind](/media/group_symbols_by_kind.png)
 
 ## Go to Symbol in Workspace
 
-> Mac: <kbd>cmd+t</kbd>
+> Mac: <kbd>Cmd+T</kbd>
 
-> Windows / Linux: <kbd>ctrl+t</kbd>
+> Windows / Linux: <kbd>Ctrl+T</kbd>
 
-![go to symbol in workspace](/media/go_to_symbol_in_workspace.png)
+![Go to symbol in workspace](/media/go_to_symbol_in_workspace.png)
 
-## Navigate to a specific line
+## Navigate to a Specific Line
 
-> Mac: <kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
+> Mac: <kbd>Ctrl+G</kbd> or <kbd>Cmd+P :</kbd>
 
-> Windows / Linux: <kbd>ctrl+g</kbd>
+> Windows / Linux: <kbd>Ctrl+G</kbd>
 
-![navigate to line](/media/navigate_to_line.gif)
+![Navigate to line](/media/navigate_to_line.gif)
 
-## Undo cursor position
+## Undo Cursor Position
 
-> Mac: <kbd>cmd+u</kbd>
+> Mac: <kbd>Cmd+U</kbd>
 
-> Windows / Linux: <kbd>ctrl+u</kbd>
+> Windows / Linux: <kbd>Ctrl+U</kbd>
 
-![undo cursor position](/media/undo_cursor_position.gif)
+![Undo cursor position](/media/undo_cursor_position.gif)
 
-## Move line up and down
+## Move Line Up and Down
 
-> Mac: <kbd>opt+up</kbd> or <kbd>opt+down</kbd>
+> Mac: <kbd>Opt+&#x2191;</kbd> or <kbd>opt+&#x2193;</kbd>
 
-> Windows / Linux: <kbd>alt+up</kbd> or <kbd>alt+down</kbd>
+> Windows / Linux: <kbd>Alt+&#x2191;</kbd> or <kbd>Alt+&#x2193;</kbd>
 
-![move line up and down](/media/move_line.gif)
+![Move line up and down](/media/move_line.gif)
 
-## Trim trailing whitespace
+## Trim Trailing Whitespace
 
-> Mac: <kbd>cmd+k cmd+x</kbd>
+> Mac: <kbd>Cmd+K Cmd+X</kbd>
 
-> Windows / Linux: <kbd>ctrl+k</kbd> <kbd>ctrl+x</kbd>
+> Windows / Linux: <kbd>Ctrl+K Ctrl+X</kbd>
 
-![trailing whitespace](/media/trim_whitespace.gif)
+![Trailing whitespace](/media/trim_whitespace.gif)
 
-## Code formatting
+## Code Formatting
 
-### Currently selected source code
+### Currently Selected Source Code
 
-> Mac: <kbd>cmd+k, cmd+f</kbd>
+> Mac: <kbd>Cmd+K Cmd+F</kbd>
 
-> Windows / Linux: <kbd>ctrl+k, ctrl+f</kbd>
+> Windows / Linux: <kbd>Ctrl+K Ctrl+F</kbd>
 
-### Whole document format
+### Whole Document Format
 
-> Windows / Linux: <kbd>shift+alt+f</kbd>
+> Windows / Linux: <kbd>Shift+Alt+F</kbd>
 
-![code formatting](/media/code_formatting.gif)
+![Code formatting](/media/code_formatting.gif)
 
-## Code folding
+## Code Folding
 
-> Mac: <kbd>alt+cmd+\[</kbd> and <kbd>alt+cmd+\]</kbd>
+> Mac: <kbd>Alt+Cmd+\[</kbd> and <kbd>Alt+Cmd+\]</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+\[</kbd> and <kbd>ctrl+shift+\]</kbd>
+> Windows / Linux: <kbd>Ctrl+Shift+\[</kbd> and <kbd>Ctrl+Shift+\]</kbd>
 
-![code folding](/media/code_folding.gif)
+![Code folding](/media/code_folding.gif)
 
-## Select current line
+## Select Current Line
 
-> Mac: <kbd>cmd+i</kbd>
+> Mac: <kbd>Cmd+I</kbd>
 
-> Windows / Linux: <kbd>ctrl+i</kbd>
+> Windows / Linux: <kbd>Ctrl+I</kbd>
 
-![select current line](/media/select_current_line.gif)
+![Select current line](/media/select_current_line.gif)
 
-## Navigate to beginning and end of file
+## Navigate to Beginning and End of File
 
-> Mac: <kbd>cmd+up</kbd> and <kbd>cmd+down</kbd>
+> Mac: <kbd>Cmd+&#x2191;</kbd> and <kbd>Cmd+&#x2193;</kbd>
 
-> Windows: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
+> Windows: <kbd>Ctrl+&#x2191;</kbd> and <kbd>Ctrl+&#x2193;</kbd>
 
-> Linux: <kbd>ctrl+home</kbd> and <kbd>ctrl+end</kbd>
+> Linux: <kbd>Ctrl+Home</kbd> and <kbd>Ctrl+End</kbd>
 
-![navigate to beginning and end of file](/media/beginning_end_file.gif)
+![Navigate to beginning and end of file](/media/beginning_end_file.gif)
 
 ## Open Markdown Preview
 
 In a Markdown file, use
 
-> Mac: <kbd>shift+cmd+v</kbd>
+> Mac: <kbd>Cmd+Shift+V</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+v</kbd>
+> Windows / Linux: <kbd>Ctrl+Shift+V</kbd>
 
-![toggle readme preview](/media/toggle_preview.gif)
+![Toggle readme preview](/media/toggle_preview.gif)
 
 ## Side by Side Markdown Edit and Preview
 
 In a Markdown file, use
 
-> Mac: <kbd>cmd+k v</kbd>
+> Mac: <kbd>Cmd+K V</kbd>
 
-> Windows / Linux: <kbd>ctrl+k v</kbd>
+> Windows / Linux: <kbd>Ctrl+K V</kbd>
 
 Special bonus: The preview will now sync.
 
-![markdown sync](/media/markdown-preview-sync.gif)
+![Markdown sync](/media/markdown-preview-sync.gif)
 
 # IntelliSense
 
-Anytime, try <kbd>ctrl+space</kbd> to trigger the Suggestions widget.
+Anytime, try <kbd>Ctrl+Space</kbd> to trigger the Suggestions widget.
 
-![intellisense](/media/intellisense.gif)
+![Intellisense](/media/intellisense.gif)
 
 You can view available methods, parameter hints, short documentation, etc.
 
 ## Peek
 
-Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu.
+Select a symbol then type <kbd>Alt+F12</kbd>. Alternatively, you can use the context menu.
 
-![peek](/media/peek.gif)
+![Peek](/media/peek.gif)
 
 ## Go to Definition
 
-Select a symbol then type <kbd>f12</kbd>. Alternatively, you can use the context menu or <kbd>ctrl+click</kbd> (<kbd>cmd+click</kbd> on macOS).
+Select a symbol then type <kbd>F12</kbd>. Alternatively, you can use the context menu or <kbd>Ctrl+Click</kbd> (<kbd>Cmd+Click</kbd> on macOS).
 
-![go to definition](/media/goto_definition.gif)
+![Go to definition](/media/goto_definition.gif)
 
-You can go back to your previous location with the **Go** > **Back** command or <kbd>alt+left</kbd> (<kbd>ctrl+-</kbd> on macOS).
+You can go back to your previous location with the **Go** > **Back** command or <kbd>Alt+&#x2190;</kbd> (<kbd>Ctrl+-</kbd> on macOS).
 
 ## Find All References
 
-Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the context menu.
+Select a symbol then type <kbd>Shift+F12</kbd>. Alternatively, you can use the Context Menu.
 
-![find all references](/media/find_all_references.gif)
+![Find all references](/media/find_all_references.gif)
 
 ## Rename Symbol
 
-Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu.
+Select a symbol then type <kbd>F2</kbd>. Alternatively, you can use the Context Menu.
 
-![rename symbol](/media/rename_symbol.gif)
+![Rename symbol](/media/rename_symbol.gif)
 
 ## .eslintrc.json
 
@@ -747,7 +734,7 @@ See IntelliSense for your `package.json` file.
 
 ![package json intellisense](/media/package_json_intellisense.gif)
 
-## Emmet syntax
+## Emmet Syntax
 
 [Support for Emmet syntax](https://code.visualstudio.com/docs/languages/html#_emmet-snippets).
 
@@ -755,7 +742,7 @@ See IntelliSense for your `package.json` file.
 
 # Snippets
 
-## Create custom snippets
+## Create Custom Snippets
 
 **File** > **Preferences** > **User Snippets**, select the language, and create a snippet.
 
@@ -778,40 +765,40 @@ See more details in [Creating your own Snippets](https://code.visualstudio.com/d
 
 # Git Integration
 
-Git integration comes with VS Code "in-the-box". You can install other SCM provider from the extension Marketplace. This section describes the Git integration but much of the UI and gestures are shared by other SCM providers.
+Git Integration comes with VS Code "in-the-box". You can install other SCM providers from the extension Marketplace. This section describes the Git integration but much of the UI and gestures are shared by other SCM providers.
 
 ## Diffs
 
 Click the Source Control button in the Activity Bar then select the file to diff.
 
-![git icon](/media/git_icon.png)
+![Git icon](/media/git_icon.png)
 
 **Side by side**
 
 Default is side by side diff.
 
-![git diff side by side](/media/git_side_by_side.png)
+![Git diff side by side](/media/git_side_by_side.png)
 
 **Inline view**
 
 Toggle inline view by clicking the **More** (...) button in the top right and selecting **Switch to Inline View**.
 
-![more git button](/media/more_button.png)
+![More git button](/media/more_button.png)
 
-![git inline](/media/git_inline.png)
+![Git inline](/media/git_inline.png)
 
 If you prefer the inline view, you can set `"diffEditor.renderSideBySide": false`.
 
 
 **Review Pane**
 
-Navigate through diffs with `F7` and `Shift+F7`. This will present them in a unified patch format.
-Lines can be navigated with arrow keys and pressing `Enter` will jump back in the diff editor and the selected line.
+Navigate through diffs with <kbd>F7</kbd> and <kbd>Shift+F7</kbd>. This will present them in a unified patch format.
+Lines can be navigated with arrow keys and pressing <kbd>Enter</kbd> will jump back in the diff editor and the selected line.
 
-![diff_review_pane](/media/diff_review_pane.png)
+![Diff_review_pane](/media/diff_review_pane.png)
 
 
-**Edit pending changes**
+**Edit Pending Changes**
 
 You can make edits directly in the pending changes of the diff view.
 
@@ -820,67 +807,67 @@ You can make edits directly in the pending changes of the diff view.
 
 Easily switch between Git branches via the Status Bar.
 
-![switch branches](/media/switch_branches.gif)
+![Switch branches](/media/switch_branches.gif)
 
 ## Staging
 
 **Stage all**
 
-Hover over the number of files and click the plus button.
+Hover over the number of files and click the &#x2b; button.
 
-![git stage all](/media/git_stage_all.gif)
+![Git stage all](/media/git_stage_all.gif)
 
-**Stage selected**
+**Stage Selected**
 
 Stage a portion of a file by selecting that file (using the arrows) and then choosing **Stage Selected Ranges** from the **Command Palette**.
 
-![git stage selected](https://cloud.githubusercontent.com/assets/1926584/23407797/ebeefbb4-fdc5-11e6-8ca1-c4c6c056a8fd.png)
+![Git stage selected](https://cloud.githubusercontent.com/assets/1926584/23407797/ebeefbb4-fdc5-11e6-8ca1-c4c6c056a8fd.png)
 
-## Undo last commit
+## Undo Last Commit
 
-![undo last commit](/media/undo_last_commit.gif)
+![Undo last commit](/media/undo_last_commit.gif)
 
 ## See Git output
 
 VS Code makes it easy to see what Git commands are actually running. This is helpful when learning Git or debugging a difficult source control issue.
 
-> Mac: <kbd>shift+cmd+u</kbd>
+> Mac: <kbd>Shift+Cmd+U</kbd>
 
-> Windows / Linux: <kbd>ctrl+shift+u</kbd>
+> Windows / Linux: <kbd>Ctrl+Shift+U</kbd>
 
 to run `toggleOutput`. Select **Git** in the drop-down.
 
-## Gutter indicators
+## Gutter Indicators
 
 View diff decorations in editor. See [documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators) for more details.
 
-![git gutter indicators](/media/editingevolved_gutter.png)
+![Git gutter indicators](/media/editingevolved_gutter.png)
 
-## Resolve merge conflicts
+## Resolve Merge Conflicts
 
 During a merge, click the Source Control button in the Activity Bar and make changes in the diff view. Select and accept current, incoming or both changes in just one click.
 
-![git icon](/media/git_icon.png)
-![resolve merge conflicts](/media/resolve_merge_conflicts.gif)
+![Git icon](/media/git_icon.png)
+![Resolve merge conflicts](/media/resolve_merge_conflicts.gif)
 
-## Setup VS Code as default merge tool
+## Setup VS Code as Default Merge Tool
 
 ```bash
 git config --global merge.tool code
 ```
-## Pull request extension
+## Pull Request Extension
 
-Review pull requests inside vscode [vscode-pull-request-github](https://github.com/Microsoft/vscode-pull-request-github)
+Review pull requests inside VS Code [vscode-pull-request-github](https://github.com/Microsoft/vscode-pull-request-github)
 
 # Debugging
 
-## Configure debugger
+## Configure Debugger
 
-<kbd>f1</kbd> and select **Debug: Open launch.json**, select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
+Press <kbd>F1</kbd>, select **Debug: Open launch.json** and select the environment. This will generate a `launch.json` file. Works out of the box as expected for Node.js and other environments. May need some additional configuration for other languages. See [documentation](https://code.visualstudio.com/docs/editor/debugging) for more details.
 
-![configure debugging](/media/configure_debug.gif)
+![Configure debugging](/media/configure_debug.gif)
 
-## Breakpoints and stepping through
+## Breakpoints and Stepping through
 
 Place breakpoints next to the line number. Navigate forward with the Debug widget.
 
@@ -931,12 +918,12 @@ There are occasionally issues with auto generation. Check out the documentation 
 
 Select **Tasks** from the top-level menu, run the command **Run Task...**, and select the task you want to run. Terminate the running task by running the command **Terminate Task...**
 
-![task runner](/media/task_runner.gif)
+![Task runner](/media/task_runner.gif)
 
 
 ## Other Resources
 
-* [vscode official docs](https://code.visualstudio.com/docs)
-* [react sample app](https://github.com/Microsoft/vscode-react-sample)
-* [awesome vscode](https://github.com/viatsko/awesome-vscode)
-* [vscode can do that](https://vscodecandothat.com/) 
+* [VSCode Official Docs](https://code.visualstudio.com/docs)
+* [React Sample App](https://github.com/Microsoft/vscode-react-sample)
+* [awesome-vscode](https://github.com/viatsko/awesome-vscode)
+* [VSCode Can Do That?!](https://vscodecandothat.com/) 
