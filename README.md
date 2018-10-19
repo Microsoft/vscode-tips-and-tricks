@@ -522,6 +522,13 @@ Add more cursors to current selection.
 
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
+## Multi select
+
+> Mac: <kbd>cmd+d</kbd>
+> Windows: <kbd>ctrl+d</kbd>
+
+![multi select](/media/multi_select.gif)
+
 ## Join line
 
 > Mac: <kbd>ctrl+j</kbd>
