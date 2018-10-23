@@ -850,6 +850,15 @@ VS Code makes it easy to see what Git commands are actually running. This is hel
 
 to run `toggleOutput`. Select **Git** in the drop-down.
 
+
+## Git log
+
+> With this [extension](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) you can view git log, file or line History
+
+![View git log, file or line history animation](/media/git_log.gif)
+
+
+
 ## Gutter indicators
 
 View diff decorations in editor. See [documentation](https://code.visualstudio.com/docs/editor/versioncontrol#_gutter-indicators) for more details.
