@@ -943,7 +943,7 @@ Select **Tasks** from the top-level menu, run the command **Run Task...**, and s
 * [vscode can do that](https://vscodecandothat.com/) 
 
 
-# top_6_imp_extensions
+# Top 6 important extensions
 
 ## 1. Path Intellisense
 
