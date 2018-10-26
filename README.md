@@ -592,6 +592,14 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![move line up and down](/media/move_line.gif)
 
+## Delete entire line
+
+> Mac: <kbd>cmd+shift+k</kbd>
+
+> Windows / Linux: <kbd>shift+del</kbd> or <kbd>ctrl+shift+k</kbd>
+
+![delete entire line](/media/delete-line.gif)
+
 ## Trim trailing whitespace
 
 > Mac: <kbd>cmd+k cmd+x</kbd>
