@@ -16,6 +16,7 @@
 9. <a href="#debugging">Debugging</a>
 10. <a href="#task-runner">Task runner</a>
 11. <a href="#other-resources">Other Resources</a>
+12. <a href="#top_10_imp_extensions"> Top 6 important extensions</a> 
 
 > The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut reference.
 
@@ -940,3 +941,30 @@ Select **Tasks** from the top-level menu, run the command **Run Task...**, and s
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
 * [awesome vscode](https://github.com/viatsko/awesome-vscode)
 * [vscode can do that](https://vscodecandothat.com/) 
+
+
+# top_6_imp_extensions
+
+## 1. Path Intellisense
+
+The <a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense"> Path Intellisense</a> extension helps to autocomplete filenames. Super useful when writing out paths in markup, or in any file that has path references.
+
+## 2. Shopify Liquid Snippets
+
+The <a href="https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces"> Shopify Liquid Snippets</a> includes various Liquid snippets to make developing themes faster. This includes snippets for control flow tags, iteration tags, variable tags, array filters, and more. This extension has one dependency, the Liquid Languages Support extension.
+
+## 3. HTML Snippets
+
+<a href="https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces"> HTML Snippets </a>adds in rich language support for HTML markup, including snippets, quick info, and descriptions that include whether a tag is deprecated.
+
+## 4. Blank line at end of file
+
+<a href="https://marketplace.visualstudio.com/items?itemName=riccardoNovaglia.missinglineendoffile"> Blank line at end of file</a> is a minimal and super simple extension that adds an extra blank line at the end of any saved file.
+
+## 5. Liquid Languages Support
+
+The  <a href="https://marketplace.visualstudio.com/items?itemName=neilding.language-liquid#overview"> Liquid Languages Support</a> extension is a must have for those developing Shopify themes using VS Code. Though there’s support for sidebar icons to distinguish Liquid files out-of-the-box, VS Code doesn’t have syntax highlighting for Liquid without the help of this extension. This extension adds syntax highlighting for Liquid, and acts as a support for the Shopify Liquid Snippets extension.
+
+## 6. Git Lens
+
+The <a href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"> Git Lens </a> extension is truly amazing, it enables you to visualize code authorship within VS Code. You can browse and explore the history of a file, view a git blame annotation for each file line, and even add a changes (diff) hover annotation, all of which are fully customizable.
