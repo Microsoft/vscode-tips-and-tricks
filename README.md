@@ -16,7 +16,7 @@
 9. <a href="#debugging">Debugging</a>
 10. <a href="#task-runner">Task runner</a>
 11. <a href="#other-resources">Other Resources</a>
-12. <a href="#top_10_imp_extensions"> Top 6 important extensions</a> 
+12. <a href="#top-6-importan-extensions"> Top 6 important extensions</a> 
 
 > The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut reference.
 
