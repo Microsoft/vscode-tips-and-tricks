@@ -30,7 +30,7 @@ The Visual Studio Code team uses the Insiders version to test the latest feature
 * Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently.
 
 ![side by side install](/media/side-by-side-install.png)
-
+* use - Best editor and have cmd prompt in editor and available all language extensions for debug.
 ## Getting Started
 
 Open the **Welcome** page to get started with the basics of VS Code. **Help** > **Welcome**.
