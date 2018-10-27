@@ -25,9 +25,9 @@
 
 The Visual Studio Code team uses the Insiders version to test the latest features and bug fixes of VS Code. You can use this same version by [downloading here](https://code.visualstudio.com/insiders).
 
-* For Early Adopters - Insiders has the most recent code changes and may lead to the occasional broken build.
+* For Early Adopters - Insiders has the most recent code changes and may lead to very occasional broken builds.
 * Frequent Builds - New builds everyday with the latest bug fixes and features.
-* Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently.
+* Side-by-side install - Insiders installs next to the Stable build allowing you to use either of them independently.
 
 ![side by side install](/media/side-by-side-install.png)
 
@@ -75,7 +75,7 @@ Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently op
 
 ### Open multiple files from Quick Open
 
-You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
+You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background while you continue selecting files from **Quick Open**.
 
 ## CLI tool
 
@@ -147,7 +147,7 @@ If you want to persist the new language mode for that file type, you can use the
 
 # Customization
 
-There are many things you can do to customize VS Code.
+There are many ways to customize VS Code.
 
 * Change your theme
 * Change your keyboard shortcuts
@@ -360,7 +360,7 @@ See more in the [documentation](https://code.visualstudio.com/docs/languages/jso
 
 ## Install extensions
 
-Click the Extensions Activity Bar button. You can search via the search bar or click the **More** (...) button to filter and sort by install count.
+Click the Extensions Activity Bar button. You can search via the search bar or click on the **More** (...) button to filter and sort by install count.
 
 ![install extensions](/media/InstallExtensions.gif)
 
@@ -424,7 +424,7 @@ You can also toggle Auto Save from the top-level menu with the **File** > **Auto
 
 ![zen mode](/media/zen_mode.gif)
 
-Enter distraction free Zen mode.
+Enter the distraction free Zen mode.
 
 ## Side by side editing
 
@@ -929,7 +929,7 @@ There are occasionally issues with auto generation. Check out the documentation 
 
 ## Run tasks from the Tasks menu
 
-Select **Tasks** from the top-level menu, run the command **Run Task...**, and select the task you want to run. Terminate the running task by running the command **Terminate Task...**
+Select **Tasks** from the top-level menu, run the command **Run Task...**, and select the task you want to run. You can terminate the running task by running the command **Terminate Task...**
 
 ![task runner](/media/task_runner.gif)
 
