@@ -1,7 +1,7 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
 >**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR>
->The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated.
+>The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issue fixes are still greatly appreciated.
 
 # Table of Contents
 
@@ -53,7 +53,7 @@ Access all available commands based on your current context.
 
 ## Reference keybindings
 
-All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is use the **Command Palette** to help you out.
+All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is, use the **Command Palette** to help you out.
 
 ![keyboard references](/media/keyboard-references.png)
 
@@ -287,7 +287,7 @@ And many, many [others](https://code.visualstudio.com/docs/getstarted/settings).
 
 ## Language specific settings
 
-For those settings you only want for specific languages.
+For those settings you want only for specific languages.
 
 ```json
 "[languageid]": {
@@ -327,7 +327,7 @@ or for a schema defined in your workspace
 ]
 ```
 
-or a custom schema
+or for a custom schema
 
 ```json
 "json.schemas": [
@@ -424,7 +424,7 @@ You can also toggle Auto Save from the top-level menu with the **File** > **Auto
 
 ![zen mode](/media/zen_mode.gif)
 
-Enter distraction free Zen mode.
+Enter distraction-free Zen mode.
 
 ## Side by side editing
 
