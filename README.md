@@ -188,7 +188,7 @@ Are you used to keyboard shortcuts from another editor? You can install a Keymap
 
 ### Customize your keyboard shortcuts
 
-Open the **Command Palette** and type "keyboard shortcuts." You can now add your own keybindings in the file on the right.
+Open the **Command Palette** and type "keyboard shortcuts". You can now add your own keybindings in the file on the right.
 
 ![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
