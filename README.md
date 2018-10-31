@@ -160,7 +160,7 @@ Check out the full [documentation](https://code.visualstudio.com/docs/getstarted
 
 ## Change your theme
 
-Open the **Command Palette** and type "themes". You can install more themes from the extension Marketplace.
+Open the **Command Palette** and type "themes." You can install more themes from the extension Marketplace.
 
 ![Preview themes](/media/PreviewThemes.gif)
 
