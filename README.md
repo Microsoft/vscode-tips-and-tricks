@@ -354,9 +354,9 @@ See more in the [documentation](https://code.visualstudio.com/docs/languages/jso
 ## Find extensions
 
 1. In the VS Code [Marketplace](https://marketplace.visualstudio.com/vscode).
-2. Search inside VS Code
-3. View extension recommendations
-4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode)
+2. Search inside VS Code.
+3. View extension recommendations.
+4. Community curated extension lists, such as [awesome-vscode](https://github.com/viatsko/awesome-vscode).
 
 ## Install extensions
 
