@@ -426,7 +426,7 @@ You can also toggle Auto Save from the top-level menu with the **File** > **Auto
 
 Enter distraction free Zen mode.
 
-## Side by side editing
+## Side by side and grid editing
 
 > Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the File Explorer.
 
