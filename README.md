@@ -29,7 +29,10 @@ The Visual Studio Code team uses the Insiders version to test the latest feature
 * Frequent Builds - New builds everyday with the latest bug fixes and features.
 * Side-by-side install - Insiders installs next to the Stable build allowing you to use either independently.
 
-![side by side install](/media/side-by-side-install.png)
+ Stable | Insiders 
+--------|----------
+![Stable logo](/media/logo-stable.png) |  ![Insiders logo](/media/logo-insiders.png) 
+
 
 ## Getting Started
 
