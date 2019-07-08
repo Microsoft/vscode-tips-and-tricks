@@ -940,3 +940,4 @@ Select **Tasks** from the top-level menu, run the command **Run Task...**, and s
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
 * [awesome vscode](https://github.com/viatsko/awesome-vscode)
 * [vscode can do that](https://vscodecandothat.com/) 
+* [Smashingmagazine](https://www.smashingmagazine.com/2018/01/visual-studio-code/)
