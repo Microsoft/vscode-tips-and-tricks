@@ -77,6 +77,16 @@ Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently op
 
 You can open multiple files from **Quick Open** by pressing the Right arrow key. This will open the currently selected file in the background and you can continue selecting files from **Quick Open**.
 
+## Quick Open View
+
+Quickly switch between views.
+
+> Mac: <kbd>cmd+q</kbd>
+
+> Windows / Linux: <kbd>ctrl+q</kbd>
+
+![Quick Open View](/media/quick_open_view.gif)
+
 ## CLI tool
 
 > Linux: Follow instructions [here](https://code.visualstudio.com/docs/setup/linux).
