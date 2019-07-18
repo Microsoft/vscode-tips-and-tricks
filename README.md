@@ -1,7 +1,7 @@
 # [VS Code](https://code.visualstudio.com) Tips and Tricks
 
->**Note**: Tips and Tricks has moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<BR>
->The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still greatly appreciated.
+>**Note**: Tips and Tricks has been moved to the official Visual Studio Code documentation at [code.visualstudio.com](https://code.visualstudio.com/docs/getstarted/tips-and-tricks).<br>
+>The content is now at [vscode-docs](https://github.com/Microsoft/vscode-docs/blob/master/docs/getstarted/tips-and-tricks.md). Pull requests and documentation issues are still highly appreciated.
 
 # Table of Contents
 
@@ -17,7 +17,7 @@
 10. <a href="#task-runner">Task runner</a>
 11. <a href="#other-resources">Other Resources</a>
 
-> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcut reference.
+> The key bindings below may or may not be accurate with the latest build. See [here](https://code.visualstudio.com/docs/getstarted/keybindings) for the latest keyboard shortcuts reference.
 
 # Basics
 
@@ -53,7 +53,7 @@ Access all available commands based on your current context.
 
 ## Reference keybindings
 
-All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is use the **Command Palette** to help you out.
+All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is, use the **Command Palette** to help you out.
 
 ![keyboard references](/media/keyboard-references.png)
 
@@ -71,7 +71,7 @@ Quickly open files.
 
 ### Navigate between recently opened files
 
-Repeat the **Quick Open** keyboard shortcut to cycle quickly between recently opened files.
+Repeat the **Quick Open** keyboard shortcut to quickly cycle between recently opened files.
 
 ### Open multiple files from Quick Open
 
@@ -192,7 +192,7 @@ Open the **Command Palette** and type "keyboard shortcuts." You can now add your
 
 ![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
-See more in [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
+See more at [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/getstarted/keybindings).
 
 ## Tune your settings
 
@@ -227,7 +227,7 @@ Open `settings.json`
 "editor.fontLigatures": true
 ```
 
-> **Tip:** You will need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
+> **Tip:** You need to have a font installed that supports font ligatures. [FiraCode](https://github.com/tonsky/FiraCode) is a popular font on the VS Code team.
 
 ![font ligatures](/media/font-ligatures-annotated.png)
 
@@ -925,7 +925,7 @@ This will generate a `tasks.json` file with content like the following. See the 
 }
 ```
 
-There are occasionally issues with auto generation. Check out the documentation for getting things to work properly.
+There are issues occasionally with auto generation. Check out the documentation for getting things to work properly.
 
 ## Run tasks from the Tasks menu
 
