@@ -600,6 +600,12 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
+## Cut Line (must have empty selection)
+
+> Mac: <kbd>cmd+x</kbd>
+
+> Windows / Linux: <kbd>ctrl+x</kbd>
+
 ## Code formatting
 
 ### Currently selected source code
