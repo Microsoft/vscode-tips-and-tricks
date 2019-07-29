@@ -400,7 +400,11 @@ Further reading:
 
 ## Auto Save
 
-Open `settings.json` with <kbd>cmd+,</kbd>
+Open `settings.json`
+
+> Mac: <kbd>cmd+,</kbd>
+
+> Windows / Linux: <kbd>ctrl+,</kbd>
 
 ```json
 "files.autoSave": "afterDelay"
