@@ -538,6 +538,16 @@ Add more cursors to current selection.
 
 ![copy line down](/media/copy_line_down.gif)
 
+## Cut / delete line
+
+> Mac: <kbd>cmd+x</kbd> (Cuts line when nothing is selected) or <kbd>cmd+shift+k</kbd> (Only deletes the line)
+
+> Windows / Linux: <kbd>shift+del</kbd>
+
+And when you paste, it is pasted on the previous line with respect to the cursor.
+
+![cut delete line](/media/cut_delete_line.gif)
+
 ## Shrink / expand selection
 
 More in [documentation](https://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor)
