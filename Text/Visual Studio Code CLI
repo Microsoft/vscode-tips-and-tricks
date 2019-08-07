@@ -1,0 +1,10 @@
+Visual Studio Code comes with an inbuilt Command Line Interface. 
+Once you've installed Visual Studio Code, and have it open, press ⇧⌘P to open the command palette for Mac,
+or just ⌘P and the press > button.
+
+Next, type in shell command, select Install Code Command in PATH, and press enter.
+
+Now if you type in code, Visual Studio Code will open, and code <path>,
+Visual Studio Code will open with the directory represented by Path.
+
+To see the command line interface however, type in code -h
