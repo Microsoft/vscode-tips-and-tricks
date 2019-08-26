@@ -670,6 +670,12 @@ Anytime, try <kbd>ctrl+space</kbd> to trigger the Suggestions widget.
 
 You can view available methods, parameter hints, short documentation, etc.
 
+## Tab completion
+
+Editor Tab completion can now complete all kind of suggestions. After setting "editor.tabCompletion": "on", pressing Tab will complete any prefix, not just snippets. Also, pressing Tab will insert the next suggestion and ⇧Tab will insert the previous suggestion.
+
+![tab completion](https://code.visualstudio.com/assets/updates/1_28/tabcompletion.gif)
+
 ## Peek
 
 Select a symbol then type <kbd>alt+f12</kbd>. Alternatively, you can use the context menu.
