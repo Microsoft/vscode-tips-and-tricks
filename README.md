@@ -940,3 +940,7 @@ Select **Tasks** from the top-level menu, run the command **Run Task...**, and s
 * [react sample app](https://github.com/Microsoft/vscode-react-sample)
 * [awesome vscode](https://github.com/viatsko/awesome-vscode)
 * [vscode can do that](https://vscodecandothat.com/) 
+* [vscode tutorials](https://www.youtube.com/watch?v=4q1tD39Mk_A)
+* [vscode.pro](https://vscode.pro/) 
+
+
