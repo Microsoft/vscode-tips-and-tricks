@@ -440,7 +440,7 @@ You can use drag and drop editors to create new editor groups and move editors b
 
 ## Switch between editors
 
-> Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
+> Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd> or <kbd>cmd+shift+[</kbd> <kbd>cmd+shift+]</kbd>
 
 > Windows / Linux: <kbd>ctrl+1</kbd>, <kbd>ctrl+2</kbd>, <kbd>ctrl+3</kbd>
 
