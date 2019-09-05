@@ -658,9 +658,21 @@ In a Markdown file, use
 
 > Windows / Linux: <kbd>ctrl+k v</kbd>
 
+Or click the `Open Preview to the Side` icon on the editor bar:
+
+![preview-md-icon](/media/preview-md-icon.png)
+ 
 Special bonus: The preview will now sync.
 
 ![markdown sync](/media/markdown-preview-sync.gif)
+
+## Markdown Outline
+
+At the bottom of the File Explorer, expand the `Outline` view to show the header hierarchy for Markdown files.
+
+![markdown-outline](/media/markdown-outline.gif)
+
+See the full Markdown [documentation](https://code.visualstudio.com/docs/languages/markdown) for more details.
 
 # IntelliSense
 
