@@ -370,6 +370,12 @@ Click the Extensions Activity Bar button. Then click **Show Recommended Extensio
 
 ![show recommended extensions](/media/ShowRecommendedExtensions.gif)
 
+## Disable extensions
+
+Click the Extensions Activity Bar button. Select one of the enabled extensions and click on **disable** dropdown > **disable**. 
+
+![disable extensions](/media/DisableExtensions.gif)
+
 ## Creating my own extension
 
 Are you interested in creating your own extension? You can learn how to do this in the documentation, specifically check out the [documentation on contribution points](https://code.visualstudio.com/docs/extensionAPI/extension-points). A simple "Hello, world" tutorial can be found [here](https://code.visualstudio.com/docs/extensions/example-hello-world).
