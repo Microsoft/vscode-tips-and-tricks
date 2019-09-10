@@ -21,7 +21,7 @@
 
 # Basics
 
-## Insider Version of VS Code
+## Insiders Version of VS Code
 
 The Visual Studio Code team uses the Insiders version to test the latest features and bug fixes of VS Code. You can use this same version by [downloading here](https://code.visualstudio.com/insiders).
 
