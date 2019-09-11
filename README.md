@@ -600,6 +600,14 @@ You can group the symbols by kind by adding a colon, `@:`.
 
 ![trailing whitespace](/media/trim_whitespace.gif)
 
+## Toggle Problems Panel
+
+> Mac: <kbd>shift+cmd+m</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+m</kbd>
+
+![toggle side bar](/media/view_problems_panel.gif)
+
 ## Code formatting
 
 ### Currently selected source code
