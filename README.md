@@ -188,7 +188,9 @@ Are you used to keyboard shortcuts from another editor? You can install a Keymap
 
 ### Customize your keyboard shortcuts
 
-Open the **Command Palette** and type "keyboard shortcuts." You can now add your own keybindings in the file on the right.
+Open the **Command Palette**(<kbd>F1</kbd>) and type "keyboard shortcuts." Hit enter to execute **Preferences: Open Keyboard Shortcuts** or **Preferences: Open Keyboard Shortcuts File**. You can now add your own keybindings in either using the VS Code interface or editing the configuration file.
+
+![open keyboard shortcuts](/media/keyboard_shortcuts_command.png)
 
 ![customize keyboard shortcuts](/media/KeyboardShortcuts.gif)
 
