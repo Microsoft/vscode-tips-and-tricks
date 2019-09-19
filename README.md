@@ -662,6 +662,12 @@ Special bonus: The preview will now sync.
 
 ![markdown sync](/media/markdown-preview-sync.gif)
 
+## Search and Replace using Regular Expression
+
+After Opening Search and Replace(<kbd>cmd+k</kbd> in Mac, <kbd>ctrl+h</kbd>in Windows/Linux), change to Regex Mode, <kbd>alt+r</kbd> in Windows/Linux, <kbd>⌥⌘r</kbd> in Mac.
+When replacing, use `$` followed by group number. For example, replacement string `$1` references the first group only.
+![markdown sync](/media/regex_search.gif)
+
 # IntelliSense
 
 Anytime, try <kbd>ctrl+space</kbd> to trigger the Suggestions widget.
