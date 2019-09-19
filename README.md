@@ -53,7 +53,7 @@ Access all available commands based on your current context.
 
 ## Reference keybindings
 
-All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what the key binding is use the **Command Palette** to help you out.
+All of the commands are in the **Command Palette** with the associated key binding (if it exists). If you forget what a particular key binding is used for, the **Command Palette** is there to help you out.
 
 ![keyboard references](/media/keyboard-references.png)
 
@@ -438,7 +438,7 @@ Enter distraction free Zen mode.
 
 You can use drag and drop editors to create new editor groups and move editors between groups.
 
-## Switch between editors
+## Switch between editors tab
 
 > Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
 
@@ -451,6 +451,8 @@ You can use drag and drop editors to create new editor groups and move editors b
 > Mac: <kbd>cmd+shift+e</kbd>
 
 > Windows / Linux: <kbd>ctrl+shift+e</kbd>
+
+![create and open file](/media/mstest.gif)
 
 ## Create and open a file
 
