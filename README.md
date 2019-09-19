@@ -460,6 +460,14 @@ You can use drag and drop editors to create new editor groups and move editors b
 
 ![create and open file](/media/create_open_file.gif)
 
+## Open file in new tab ##
+
+> Mac: <kbd>middle click</kbd>
+
+> Windows: <kbd>middle click</kbd>
+
+![open file in new tab](/media/open_file_in_new_tab.gif)
+
 ## Close the currently opened folder
 
 > Mac: <kbd>cmd+w</kbd>
