@@ -695,6 +695,11 @@ Select a symbol then type <kbd>shift+f12</kbd>. Alternatively, you can use the c
 Select a symbol then type <kbd>f2</kbd>. Alternatively, you can use the context menu.
 
 ![rename symbol](/media/rename_symbol.gif)
+## Rename All Occurences
+
+Select the variable/method you want to edit the name of and press <kbd>f2</kbd>. This will change the name throughout the whole project. To just change the variable/method name inside the current file use <kbd>ctrl+f2</kbd>
+
+![rename all occurences](/media/rename_all_occurences.gif)
 
 ## .eslintrc.json
 
