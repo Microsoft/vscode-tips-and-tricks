@@ -520,6 +520,12 @@ Here are a selection of common features for editing code. If the keyboard shortc
 
 Add more cursors to current selection.
 
+> Mac: <kbd>cmd+shift+l</kbd>
+
+> Windows: <kbd>ctrl+shift+l</kbd>
+
+> Linux: <kbd>ctrl+shift+l</kbd>
+
 ![add cursor to all occurrences of current selection](/media/add_cursor_current_selection.gif)
 
 ## Join line
